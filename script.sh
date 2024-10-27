@@ -114,7 +114,7 @@ function configureAndInstall() {
         cd "${CURDIR}"
         # Download and configure ElasticSearch
         printf -- 'Downloading Elasticsearch. Please wait.\n'
-        git clone -b v7.17.22 git@github.com:elastic/elasticsearch.git
+        git clone -b v7.17.22 $ES_REPO_URL
         cd "${CURDIR}/elasticsearch"
 
         # Apply patch
