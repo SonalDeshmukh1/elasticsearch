@@ -21,7 +21,7 @@ Use the following commands to build Elasticsearch using the build [script](https
 wget -q https://raw.githubusercontent.com/linux-on-ibm-z/scripts/master/Elasticsearch/7.17.22/build_elasticsearch.sh
 
 # Build Elasticsearch
-bash build_elasticsearch.sh  [Provide -t option for executing build with tests, Provide -j for java to use [Temurin17, OpenJDK17],]
+bash build_elasticsearch.sh  [Provide -t option for executing build with tests, Provide -j for java to use [Temurin17, OpenJDK17]]
 ```
 
 If the build completes successfully, go to STEP 8. In case of error, check `logs` for more details or go to STEP 2 to follow manual build steps.
